@@ -1,7 +1,7 @@
 # product-catalogue-search-service
 It was asked in the Publicis Sapient Technical coding Round. 2 Hours were given and needed to code on their site(quizme) with Camera and Audio On. I write only 3 APIs during the test. Here, I am providing the complete product catalogue search service. 
 
-# DB - H2
+## DB - H2
 ```
 data.sql has Inserts which will populate Product table on Server Start up.
 
@@ -15,7 +15,7 @@ PUT - http://localhost:8080/products/catalogue  @ResponseBody(#ref Product)
 DELETE - http://localhost:8080/products/catalogue/{productId}
 ```
 
-### #Ref - Product.json
+### Product.json
 ```
 {
     "id": 1,
