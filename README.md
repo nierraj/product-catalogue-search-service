@@ -25,3 +25,8 @@ DELETE - http://localhost:8080/products/catalogue/{productId}
     "quantity": 100
 }
 ```
+
+```
+I have added Swagger 3: http://localhost:8080/swagger-ui/
+You can use Swagger UI to get the API details.
+```
